@@ -16,6 +16,8 @@
 		C712364D23CF6A28009444FC /* TicTackyToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C712364C23CF6A28009444FC /* TicTackyToeTests.swift */; };
 		C712365823CF6A28009444FC /* TicTackyToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C712365723CF6A28009444FC /* TicTackyToeUITests.swift */; };
 		C712366623CF6A7B009444FC /* TTTBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C712366523CF6A7B009444FC /* TTTBrain.swift */; };
+		C712366823CF6B71009444FC /* Customizables.swift in Sources */ = {isa = PBXBuildFile; fileRef = C712366723CF6B71009444FC /* Customizables.swift */; };
+		C712366A23CF6BA9009444FC /* LexendDeca-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C712366923CF6BA9009444FC /* LexendDeca-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		C712365723CF6A28009444FC /* TicTackyToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTackyToeUITests.swift; sourceTree = "<group>"; };
 		C712365923CF6A28009444FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C712366523CF6A7B009444FC /* TTTBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTTBrain.swift; sourceTree = "<group>"; };
+		C712366723CF6B71009444FC /* Customizables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customizables.swift; sourceTree = "<group>"; };
+		C712366923CF6BA9009444FC /* LexendDeca-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LexendDeca-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				C712363723CF6A24009444FC /* SceneDelegate.swift */,
 				C712363923CF6A24009444FC /* ViewController.swift */,
 				C712363B23CF6A24009444FC /* Main.storyboard */,
+				C712366723CF6B71009444FC /* Customizables.swift */,
+				C712366923CF6BA9009444FC /* LexendDeca-Regular.ttf */,
 				C712366523CF6A7B009444FC /* TTTBrain.swift */,
 				C712363E23CF6A28009444FC /* Assets.xcassets */,
 				C712364023CF6A28009444FC /* LaunchScreen.storyboard */,
@@ -237,6 +243,7 @@
 			files = (
 				C712364223CF6A28009444FC /* LaunchScreen.storyboard in Resources */,
 				C712363F23CF6A28009444FC /* Assets.xcassets in Resources */,
+				C712366A23CF6BA9009444FC /* LexendDeca-Regular.ttf in Resources */,
 				C712363D23CF6A24009444FC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +273,7 @@
 				C712366623CF6A7B009444FC /* TTTBrain.swift in Sources */,
 				C712363623CF6A24009444FC /* AppDelegate.swift in Sources */,
 				C712363823CF6A24009444FC /* SceneDelegate.swift in Sources */,
+				C712366823CF6B71009444FC /* Customizables.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
