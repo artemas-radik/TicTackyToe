@@ -15,6 +15,7 @@
 		C712364223CF6A28009444FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C712364023CF6A28009444FC /* LaunchScreen.storyboard */; };
 		C712364D23CF6A28009444FC /* TicTackyToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C712364C23CF6A28009444FC /* TicTackyToeTests.swift */; };
 		C712365823CF6A28009444FC /* TicTackyToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C712365723CF6A28009444FC /* TicTackyToeUITests.swift */; };
+		C712366623CF6A7B009444FC /* TTTBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C712366523CF6A7B009444FC /* TTTBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C712365323CF6A28009444FC /* TicTackyToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTackyToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C712365723CF6A28009444FC /* TicTackyToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTackyToeUITests.swift; sourceTree = "<group>"; };
 		C712365923CF6A28009444FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C712366523CF6A7B009444FC /* TTTBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTTBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				C712363723CF6A24009444FC /* SceneDelegate.swift */,
 				C712363923CF6A24009444FC /* ViewController.swift */,
 				C712363B23CF6A24009444FC /* Main.storyboard */,
+				C712366523CF6A7B009444FC /* TTTBrain.swift */,
 				C712363E23CF6A28009444FC /* Assets.xcassets */,
 				C712364023CF6A28009444FC /* LaunchScreen.storyboard */,
 				C712364323CF6A28009444FC /* Info.plist */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C712363A23CF6A24009444FC /* ViewController.swift in Sources */,
+				C712366623CF6A7B009444FC /* TTTBrain.swift in Sources */,
 				C712363623CF6A24009444FC /* AppDelegate.swift in Sources */,
 				C712363823CF6A24009444FC /* SceneDelegate.swift in Sources */,
 			);
