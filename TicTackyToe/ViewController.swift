@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         if gameBoardIsLocked {return}
         if !brain.checkForLegalMoveAtRowAndCol(row: row, col: col) {return}
         brain.placeTokenAtRowAndCol(row: row, col: col)
-        sender.titleLabel!.text = "hi"
+        sender.setTitle(brain.getTokenAtRowAndCol(row: row, col: col), for: UIControl.State.normal)
         sender.backgroundColor = brain.getCurrentPlayer() == "X" ? UIColor.systemPink : UIColor.systemGreen
         
         if brain.checkForDraw() {
