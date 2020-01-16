@@ -9,11 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    let brain = TTTBrain()
     
     @IBOutlet weak var topLabel: UILabel!
     @IBOutlet var board: [DesignableButton]!
+    
+    let brain = TTTBrain()
     var gameBoardIsLocked = false
     
     override func viewDidLoad() {
