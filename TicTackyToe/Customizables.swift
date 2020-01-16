@@ -5,6 +5,10 @@
 //  Created by AJ Radik on 1/7/20.
 //  Copyright © 2020 AJ Radik. All rights reserved.
 //
+//  Citation for extension, DesignableView, and DesignableLabel:
+//  Mike Woelmer, Atomic Object
+//  July 18, 2017
+//  https://spin.atomicobject.com/2017/07/18/swift-interface-builder/
 
 import Foundation
 import UIKit
