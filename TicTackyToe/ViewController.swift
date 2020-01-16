@@ -24,8 +24,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func boardButtonWasPressed(_ sender: DesignableButton) {
-        let col = sender.tag % 3
         let row = sender.tag / 3
+        let col = sender.tag % 3
         
         if gameBoardIsLocked {return}
         if !brain.checkForLegalMoveAtRowAndCol(row: row, col: col) {return}
@@ -33,15 +33,15 @@ class ViewController: UIViewController {
         sender.setTitle(brain.getTokenAtRowAndCol(row: row, col: col), for: UIControl.State.normal)
         sender.backgroundColor = brain.getCurrentPlayer() == "X" ? UIColor.systemPink : UIColor.systemGreen
         
-        if brain.checkForDraw() {
-            topLabel.text = "Draw!"
-            topLabel.textColor = UIColor.label
+        if brain.checkForWinner() {
+            topLabel.text = "\(brain.getCurrentPlayer()) Won!"
             gameBoardIsLocked = true
             return
         }
         
-        if brain.checkForWinner() {
-            topLabel.text = "\(brain.getCurrentPlayer()) Won!"
+        if brain.checkForDraw() {
+            topLabel.text = "Draw!"
+            topLabel.textColor = UIColor.label
             gameBoardIsLocked = true
             return
         }
@@ -56,7 +56,7 @@ class ViewController: UIViewController {
         
         for button in board {
             button.backgroundColor = UIColor.secondarySystemFill
-            button.titleLabel!.text = ""
+            button.setTitle("", for: UIControl.State.normal)
         }
         
         updateTopLabelForNextMove()
@@ -68,4 +68,3 @@ class ViewController: UIViewController {
     }
     
 }
-
