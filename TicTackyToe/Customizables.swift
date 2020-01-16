@@ -16,11 +16,11 @@ class DesignableView: UIView {
 @IBDesignable
 class DesignableButton: UIButton {
     
-//    override var isHighlighted: Bool {
-//        didSet {
-//            alpha = isHighlighted ? 0.4 : 1
-//        }
-//    }
+    override var isHighlighted: Bool {
+        didSet {
+            alpha = isHighlighted ? 0.6 : 1
+        }
+    }
     
 }
 

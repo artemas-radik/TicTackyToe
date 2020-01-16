@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="dark"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -30,7 +30,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="117.5" height="117.5"/>
                                                 <color key="backgroundColor" systemColor="secondarySystemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="LexendDeca-Regular" family="Lexend Deca" pointSize="75"/>
-                                                <state key="normal" title="X">
+                                                <state key="normal">
                                                     <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -49,7 +49,7 @@
                                                 <rect key="frame" x="127.5" y="0.0" width="118" height="117.5"/>
                                                 <color key="backgroundColor" systemColor="secondarySystemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="LexendDeca-Regular" family="Lexend Deca" pointSize="75"/>
-                                                <state key="normal" title="X">
+                                                <state key="normal">
                                                     <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -68,7 +68,7 @@
                                                 <rect key="frame" x="255.5" y="0.0" width="117.5" height="117.5"/>
                                                 <color key="backgroundColor" systemColor="secondarySystemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="LexendDeca-Regular" family="Lexend Deca" pointSize="75"/>
-                                                <state key="normal" title="X">
+                                                <state key="normal">
                                                     <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -92,7 +92,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="117.5" height="118"/>
                                                 <color key="backgroundColor" systemColor="secondarySystemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="LexendDeca-Regular" family="Lexend Deca" pointSize="75"/>
-                                                <state key="normal" title="X">
+                                                <state key="normal">
                                                     <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -111,7 +111,7 @@
                                                 <rect key="frame" x="127.5" y="0.0" width="118" height="118"/>
                                                 <color key="backgroundColor" systemColor="secondarySystemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="LexendDeca-Regular" family="Lexend Deca" pointSize="75"/>
-                                                <state key="normal" title="X">
+                                                <state key="normal">
                                                     <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -130,7 +130,7 @@
                                                 <rect key="frame" x="255.5" y="0.0" width="117.5" height="118"/>
                                                 <color key="backgroundColor" systemColor="secondarySystemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="LexendDeca-Regular" family="Lexend Deca" pointSize="75"/>
-                                                <state key="normal" title="X">
+                                                <state key="normal">
                                                     <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -154,7 +154,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="117.5" height="117.5"/>
                                                 <color key="backgroundColor" systemColor="secondarySystemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="LexendDeca-Regular" family="Lexend Deca" pointSize="75"/>
-                                                <state key="normal" title="X">
+                                                <state key="normal">
                                                     <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -173,7 +173,7 @@
                                                 <rect key="frame" x="127.5" y="0.0" width="118" height="117.5"/>
                                                 <color key="backgroundColor" systemColor="secondarySystemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="LexendDeca-Regular" family="Lexend Deca" pointSize="75"/>
-                                                <state key="normal" title="X">
+                                                <state key="normal">
                                                     <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -192,7 +192,7 @@
                                                 <rect key="frame" x="255.5" y="0.0" width="117.5" height="117.5"/>
                                                 <color key="backgroundColor" systemColor="secondarySystemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="LexendDeca-Regular" family="Lexend Deca" pointSize="75"/>
-                                                <state key="normal" title="X">
+                                                <state key="normal">
                                                     <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -214,18 +214,67 @@
                                     <constraint firstAttribute="width" secondItem="glD-jc-nzR" secondAttribute="height" multiplier="1:1" id="McV-T7-6kz"/>
                                 </constraints>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Red Player's Turn" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="INi-nV-Bcx">
+                                <rect key="frame" x="30" y="184.5" width="354" height="47"/>
+                                <fontDescription key="fontDescription" name="LexendDeca-Regular" family="Lexend Deca" pointSize="40"/>
+                                <color key="textColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wfY-VS-FiI" customClass="DesignableButton" customModule="TicTackyToe" customModuleProvider="target">
+                                <rect key="frame" x="20.5" y="664.5" width="373" height="80"/>
+                                <color key="backgroundColor" systemColor="secondarySystemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="QyU-HM-UxM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="LexendDeca-Regular" family="Lexend Deca" pointSize="50"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.29999999999999999"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="resetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aLk-Fh-lWe"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="wfY-VS-FiI" firstAttribute="width" secondItem="glD-jc-nzR" secondAttribute="width" id="1QM-Pl-zZp"/>
                             <constraint firstItem="glD-jc-nzR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="92n-j8-EML"/>
+                            <constraint firstAttribute="trailing" secondItem="INi-nV-Bcx" secondAttribute="trailing" constant="30" id="E5z-1O-2nr"/>
                             <constraint firstItem="glD-jc-nzR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JMD-Wc-x75"/>
                             <constraint firstItem="glD-jc-nzR" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.9" priority="750" id="M9u-aY-9Sl"/>
+                            <constraint firstItem="INi-nV-Bcx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="OnB-rH-Rkw"/>
+                            <constraint firstItem="wfY-VS-FiI" firstAttribute="top" secondItem="glD-jc-nzR" secondAttribute="bottom" constant="30" id="QW8-bH-8Q5"/>
+                            <constraint firstItem="glD-jc-nzR" firstAttribute="top" secondItem="INi-nV-Bcx" secondAttribute="bottom" constant="30" id="Zed-fo-gD1"/>
+                            <constraint firstItem="wfY-VS-FiI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kTF-16-gra"/>
                             <constraint firstItem="glD-jc-nzR" firstAttribute="height" relation="lessThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.9" id="lRy-vs-adh"/>
                             <constraint firstItem="glD-jc-nzR" firstAttribute="width" relation="lessThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.9" id="ra8-nv-nds"/>
                             <constraint firstItem="glD-jc-nzR" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.9" priority="750" id="xE8-HN-DRX"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="topLabel" destination="INi-nV-Bcx" id="uJE-Wh-2zd"/>
+                        <outletCollection property="board" destination="jjV-lb-5oM" collectionClass="NSMutableArray" id="xI3-JU-h7j"/>
+                        <outletCollection property="board" destination="Hg5-Ek-8aI" collectionClass="NSMutableArray" id="Pb1-cV-W78"/>
+                        <outletCollection property="board" destination="bXy-HV-Pji" collectionClass="NSMutableArray" id="nWz-kB-k6C"/>
+                        <outletCollection property="board" destination="QCV-od-7NW" collectionClass="NSMutableArray" id="0T5-hO-4EP"/>
+                        <outletCollection property="board" destination="jzR-eP-bu5" collectionClass="NSMutableArray" id="9Nt-Oj-0Z2"/>
+                        <outletCollection property="board" destination="aqF-lC-h5o" collectionClass="NSMutableArray" id="Y8U-xE-x6B"/>
+                        <outletCollection property="board" destination="OE5-4N-ONn" collectionClass="NSMutableArray" id="oGs-we-b9B"/>
+                        <outletCollection property="board" destination="7L6-U4-F4d" collectionClass="NSMutableArray" id="VES-Tq-cn4"/>
+                        <outletCollection property="board" destination="IUg-7J-Kmh" collectionClass="NSMutableArray" id="g1G-yo-bZN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
