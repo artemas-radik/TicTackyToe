@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -26,7 +26,7 @@
 		C73CE934246FCF4C000D0B56 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73CE933246FCF4C000D0B56 /* InterfaceController.swift */; };
 		C73CE936246FCF4D000D0B56 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73CE935246FCF4C000D0B56 /* ExtensionDelegate.swift */; };
 		C73CE938246FCF4F000D0B56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C73CE937246FCF4F000D0B56 /* Assets.xcassets */; };
-		C73CE93C246FCF4F000D0B56 /* WatchApp.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C73CE922246FCF45000D0B56 /* WatchApp.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C73CE93C246FCF4F000D0B56 /* WatchApp.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C73CE922246FCF45000D0B56 /* WatchApp.app */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C73CE946246FDA26000D0B56 /* TTTBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73CE945246FDA26000D0B56 /* TTTBrain.swift */; };
 		C73CE948246FECC1000D0B56 /* LexendDeca-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C73CE947246FECC1000D0B56 /* LexendDeca-Regular.ttf */; };
 		C73CE949246FECC1000D0B56 /* LexendDeca-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C73CE947246FECC1000D0B56 /* LexendDeca-Regular.ttf */; };
@@ -502,6 +502,7 @@
 		};
 		C73CE93B246FCF4F000D0B56 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilter = ios;
 			target = C73CE921246FCF45000D0B56 /* WatchApp */;
 			targetProxy = C73CE93A246FCF4F000D0B56 /* PBXContainerItemProxy */;
 		};
@@ -655,6 +656,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = TicTackyToe/TicTackyToe.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 32F8FK43RT;
 				INFOPLIST_FILE = TicTackyToe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -676,6 +678,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = TicTackyToe/TicTackyToe.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 32F8FK43RT;
 				INFOPLIST_FILE = TicTackyToe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
