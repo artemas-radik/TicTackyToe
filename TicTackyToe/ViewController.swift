@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 //        overrideUserInterfaceStyle = .dark
-        topLabel.font = topLabel.font.withSize( (3.6/71) * UIScreen.main.bounds.height)
+//        topLabel.font = topLabel.font.withSize( (3.6/71) * UIScreen.main.bounds.height)
         resetButton(nil)
     }
 

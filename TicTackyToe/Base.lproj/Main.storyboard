@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_5" orientation="portrait" appearance="dark"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -21,13 +21,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="glD-jc-nzR">
-                                <rect key="frame" x="20.666666666666657" y="261.66666666666663" width="372.66666666666674" height="372.66666666666663"/>
+                                <rect key="frame" x="20" y="278" width="374" height="374"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Qys-YH-mj8">
-                                        <rect key="frame" x="0.0" y="0.0" width="372.66666666666669" height="117.66666666666667"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="118"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jjV-lb-5oM" customClass="DesignableButton" customModule="TicTackyToe" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="117.66666666666667" height="117.66666666666667"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="118" height="118"/>
                                                 <color key="backgroundColor" systemColor="secondarySystemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="LexendDeca-Regular" family="Lexend Deca" pointSize="75"/>
                                                 <state key="normal">
@@ -49,7 +49,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hg5-Ek-8aI" customClass="DesignableButton" customModule="TicTackyToe" customModuleProvider="target">
-                                                <rect key="frame" x="127.66666666666669" y="0.0" width="117.33333333333331" height="117.66666666666667"/>
+                                                <rect key="frame" x="128" y="0.0" width="118" height="118"/>
                                                 <color key="backgroundColor" systemColor="secondarySystemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="LexendDeca-Regular" family="Lexend Deca" pointSize="75"/>
                                                 <state key="normal">
@@ -71,7 +71,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bXy-HV-Pji" customClass="DesignableButton" customModule="TicTackyToe" customModuleProvider="target">
-                                                <rect key="frame" x="255.00000000000003" y="0.0" width="117.66666666666666" height="117.66666666666667"/>
+                                                <rect key="frame" x="256" y="0.0" width="118" height="118"/>
                                                 <color key="backgroundColor" systemColor="secondarySystemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="LexendDeca-Regular" family="Lexend Deca" pointSize="75"/>
                                                 <state key="normal">
@@ -95,10 +95,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Nlu-0g-fDp">
-                                        <rect key="frame" x="0.0" y="127.66666666666663" width="372.66666666666669" height="117.33333333333331"/>
+                                        <rect key="frame" x="0.0" y="128" width="374" height="118"/>
                                         <subviews>
                                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QCV-od-7NW" customClass="DesignableButton" customModule="TicTackyToe" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="117.66666666666667" height="117.33333333333333"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="118" height="118"/>
                                                 <color key="backgroundColor" systemColor="secondarySystemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="LexendDeca-Regular" family="Lexend Deca" pointSize="75"/>
                                                 <state key="normal">
@@ -120,7 +120,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jzR-eP-bu5" customClass="DesignableButton" customModule="TicTackyToe" customModuleProvider="target">
-                                                <rect key="frame" x="127.66666666666669" y="0.0" width="117.33333333333331" height="117.33333333333333"/>
+                                                <rect key="frame" x="128" y="0.0" width="118" height="118"/>
                                                 <color key="backgroundColor" systemColor="secondarySystemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="LexendDeca-Regular" family="Lexend Deca" pointSize="75"/>
                                                 <state key="normal">
@@ -142,7 +142,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aqF-lC-h5o" customClass="DesignableButton" customModule="TicTackyToe" customModuleProvider="target">
-                                                <rect key="frame" x="255.00000000000003" y="0.0" width="117.66666666666666" height="117.33333333333333"/>
+                                                <rect key="frame" x="256" y="0.0" width="118" height="118"/>
                                                 <color key="backgroundColor" systemColor="secondarySystemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="LexendDeca-Regular" family="Lexend Deca" pointSize="75"/>
                                                 <state key="normal">
@@ -166,10 +166,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" tag="1" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Gle-W1-byY">
-                                        <rect key="frame" x="0.0" y="254.99999999999991" width="372.66666666666669" height="117.66666666666666"/>
+                                        <rect key="frame" x="0.0" y="256" width="374" height="118"/>
                                         <subviews>
                                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OE5-4N-ONn" customClass="DesignableButton" customModule="TicTackyToe" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="117.66666666666667" height="117.66666666666667"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="118" height="118"/>
                                                 <color key="backgroundColor" systemColor="secondarySystemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="LexendDeca-Regular" family="Lexend Deca" pointSize="75"/>
                                                 <state key="normal">
@@ -191,7 +191,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7L6-U4-F4d" customClass="DesignableButton" customModule="TicTackyToe" customModuleProvider="target">
-                                                <rect key="frame" x="127.66666666666669" y="0.0" width="117.33333333333331" height="117.66666666666667"/>
+                                                <rect key="frame" x="128" y="0.0" width="118" height="118"/>
                                                 <color key="backgroundColor" systemColor="secondarySystemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="LexendDeca-Regular" family="Lexend Deca" pointSize="75"/>
                                                 <state key="normal">
@@ -213,7 +213,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IUg-7J-Kmh" customClass="DesignableButton" customModule="TicTackyToe" customModuleProvider="target">
-                                                <rect key="frame" x="255.00000000000003" y="0.0" width="117.66666666666666" height="117.66666666666667"/>
+                                                <rect key="frame" x="256" y="0.0" width="118" height="118"/>
                                                 <color key="backgroundColor" systemColor="secondarySystemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="LexendDeca-Regular" family="Lexend Deca" pointSize="75"/>
                                                 <state key="normal">
@@ -238,20 +238,20 @@
                                     </stackView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="glD-jc-nzR" secondAttribute="height" multiplier="1:1" id="McV-T7-6kz"/>
+                                    <constraint firstAttribute="width" secondItem="glD-jc-nzR" secondAttribute="height" multiplier="1:1" id="Yaa-qd-eQl"/>
                                 </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Red Player's Turn" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="INi-nV-Bcx">
-                                <rect key="frame" x="30" y="181.66666666666666" width="354" height="50"/>
-                                <fontDescription key="fontDescription" name="LexendDeca-Regular" family="Lexend Deca" pointSize="40"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Red Player's Turn" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="INi-nV-Bcx">
+                                <rect key="frame" x="30" y="144" width="354" height="104"/>
+                                <fontDescription key="fontDescription" name="LexendDeca-Regular" family="Lexend Deca" pointSize="70"/>
                                 <color key="textColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wfY-VS-FiI" customClass="DesignableButton" customModule="TicTackyToe" customModuleProvider="target">
-                                <rect key="frame" x="20.666666666666657" y="664.33333333333337" width="372.66666666666674" height="80"/>
+                                <rect key="frame" x="20" y="682" width="374" height="80"/>
                                 <color key="backgroundColor" systemColor="secondarySystemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="QyU-HM-UxM"/>
+                                    <constraint firstAttribute="height" constant="80" id="7dS-Yq-5Ez"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="LexendDeca-Regular" family="Lexend Deca" pointSize="50"/>
                                 <state key="normal" title="Reset">
@@ -275,18 +275,17 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="wfY-VS-FiI" firstAttribute="width" secondItem="glD-jc-nzR" secondAttribute="width" id="1QM-Pl-zZp"/>
-                            <constraint firstItem="glD-jc-nzR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="92n-j8-EML"/>
-                            <constraint firstAttribute="trailing" secondItem="INi-nV-Bcx" secondAttribute="trailing" constant="30" id="E5z-1O-2nr"/>
-                            <constraint firstItem="glD-jc-nzR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JMD-Wc-x75"/>
-                            <constraint firstItem="glD-jc-nzR" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.9" priority="750" id="M9u-aY-9Sl"/>
-                            <constraint firstItem="INi-nV-Bcx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="OnB-rH-Rkw"/>
-                            <constraint firstItem="wfY-VS-FiI" firstAttribute="top" secondItem="glD-jc-nzR" secondAttribute="bottom" constant="30" id="QW8-bH-8Q5"/>
-                            <constraint firstItem="glD-jc-nzR" firstAttribute="top" secondItem="INi-nV-Bcx" secondAttribute="bottom" constant="30" id="Zed-fo-gD1"/>
-                            <constraint firstItem="wfY-VS-FiI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kTF-16-gra"/>
-                            <constraint firstItem="glD-jc-nzR" firstAttribute="height" relation="lessThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.9" id="lRy-vs-adh"/>
-                            <constraint firstItem="glD-jc-nzR" firstAttribute="width" relation="lessThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.9" id="ra8-nv-nds"/>
-                            <constraint firstItem="glD-jc-nzR" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.9" priority="750" id="xE8-HN-DRX"/>
+                            <constraint firstItem="INi-nV-Bcx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="6vF-ov-7bf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wfY-VS-FiI" secondAttribute="bottom" constant="100" id="81T-04-xZa"/>
+                            <constraint firstItem="INi-nV-Bcx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="FBe-pN-5cY"/>
+                            <constraint firstItem="glD-jc-nzR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FlZ-vV-Wbu"/>
+                            <constraint firstItem="wfY-VS-FiI" firstAttribute="width" secondItem="glD-jc-nzR" secondAttribute="width" id="FwL-bT-xTQ"/>
+                            <constraint firstItem="glD-jc-nzR" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="Lfn-AF-7Ca"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="INi-nV-Bcx" secondAttribute="trailing" constant="30" id="MKB-WD-dRW"/>
+                            <constraint firstItem="wfY-VS-FiI" firstAttribute="top" secondItem="glD-jc-nzR" secondAttribute="bottom" constant="30" id="POj-wC-Nbc"/>
+                            <constraint firstItem="glD-jc-nzR" firstAttribute="top" secondItem="INi-nV-Bcx" secondAttribute="bottom" constant="30" id="VCQ-3q-O2R"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="glD-jc-nzR" secondAttribute="trailing" constant="20" id="pyd-ws-E6F"/>
+                            <constraint firstItem="wfY-VS-FiI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vbM-W1-Yhi"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

@@ -20,6 +20,16 @@
 		C712366A23CF6BA9009444FC /* LexendDeca-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C712366923CF6BA9009444FC /* LexendDeca-Regular.ttf */; };
 		C728A1B723E4B1380037F18D /* SC2.png in Resources */ = {isa = PBXBuildFile; fileRef = C728A1B523E4B1380037F18D /* SC2.png */; };
 		C728A1B823E4B1380037F18D /* SC1.png in Resources */ = {isa = PBXBuildFile; fileRef = C728A1B623E4B1380037F18D /* SC1.png */; };
+		C73CE926246FCF45000D0B56 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C73CE924246FCF45000D0B56 /* Interface.storyboard */; };
+		C73CE928246FCF4C000D0B56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C73CE927246FCF4C000D0B56 /* Assets.xcassets */; };
+		C73CE92F246FCF4C000D0B56 /* WatchApp.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C73CE92E246FCF4C000D0B56 /* WatchApp.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C73CE934246FCF4C000D0B56 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73CE933246FCF4C000D0B56 /* InterfaceController.swift */; };
+		C73CE936246FCF4D000D0B56 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73CE935246FCF4C000D0B56 /* ExtensionDelegate.swift */; };
+		C73CE938246FCF4F000D0B56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C73CE937246FCF4F000D0B56 /* Assets.xcassets */; };
+		C73CE93C246FCF4F000D0B56 /* WatchApp.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C73CE922246FCF45000D0B56 /* WatchApp.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C73CE946246FDA26000D0B56 /* TTTBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73CE945246FDA26000D0B56 /* TTTBrain.swift */; };
+		C73CE948246FECC1000D0B56 /* LexendDeca-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C73CE947246FECC1000D0B56 /* LexendDeca-Regular.ttf */; };
+		C73CE949246FECC1000D0B56 /* LexendDeca-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C73CE947246FECC1000D0B56 /* LexendDeca-Regular.ttf */; };
 		C758493C244531F1007F3A22 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C758493B244531F1007F3A22 /* UIButtonExtension.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +48,46 @@
 			remoteGlobalIDString = C712363123CF6A24009444FC;
 			remoteInfo = TicTackyToe;
 		};
+		C73CE930246FCF4C000D0B56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C712362A23CF6A24009444FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C73CE92D246FCF4C000D0B56;
+			remoteInfo = "WatchApp Extension";
+		};
+		C73CE93A246FCF4F000D0B56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C712362A23CF6A24009444FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C73CE921246FCF45000D0B56;
+			remoteInfo = WatchApp;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C73CE93D246FCF4F000D0B56 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C73CE93C246FCF4F000D0B56 /* WatchApp.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73CE940246FCF4F000D0B56 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C73CE92F246FCF4C000D0B56 /* WatchApp.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C712363223CF6A24009444FC /* TicTackyToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTackyToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +109,18 @@
 		C712366923CF6BA9009444FC /* LexendDeca-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LexendDeca-Regular.ttf"; sourceTree = "<group>"; };
 		C728A1B523E4B1380037F18D /* SC2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SC2.png; sourceTree = "<group>"; };
 		C728A1B623E4B1380037F18D /* SC1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SC1.png; sourceTree = "<group>"; };
+		C73CE922246FCF45000D0B56 /* WatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73CE925246FCF45000D0B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C73CE927246FCF4C000D0B56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C73CE929246FCF4C000D0B56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C73CE92E246FCF4C000D0B56 /* WatchApp.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WatchApp.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73CE933246FCF4C000D0B56 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C73CE935246FCF4C000D0B56 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		C73CE937246FCF4F000D0B56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C73CE939246FCF4F000D0B56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C73CE945246FDA26000D0B56 /* TTTBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTBrain.swift; sourceTree = "<group>"; };
+		C73CE947246FECC1000D0B56 /* LexendDeca-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LexendDeca-Regular.ttf"; sourceTree = "<group>"; };
+		C7457E18246FB05B005F6672 /* TicTackyToe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TicTackyToe.entitlements; sourceTree = "<group>"; };
 		C758493B244531F1007F3A22 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,6 +146,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C73CE92B246FCF4C000D0B56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -95,6 +163,8 @@
 				C712363423CF6A24009444FC /* TicTackyToe */,
 				C712364B23CF6A28009444FC /* TicTackyToeTests */,
 				C712365623CF6A28009444FC /* TicTackyToeUITests */,
+				C73CE923246FCF45000D0B56 /* WatchApp */,
+				C73CE932246FCF4C000D0B56 /* WatchApp Extension */,
 				C712363323CF6A24009444FC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,6 +175,8 @@
 				C712363223CF6A24009444FC /* TicTackyToe.app */,
 				C712364823CF6A28009444FC /* TicTackyToeTests.xctest */,
 				C712365323CF6A28009444FC /* TicTackyToeUITests.xctest */,
+				C73CE922246FCF45000D0B56 /* WatchApp.app */,
+				C73CE92E246FCF4C000D0B56 /* WatchApp.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +184,7 @@
 		C712363423CF6A24009444FC /* TicTackyToe */ = {
 			isa = PBXGroup;
 			children = (
+				C7457E18246FB05B005F6672 /* TicTackyToe.entitlements */,
 				C712363523CF6A24009444FC /* AppDelegate.swift */,
 				C712363723CF6A24009444FC /* SceneDelegate.swift */,
 				C758493B244531F1007F3A22 /* UIButtonExtension.swift */,
@@ -154,6 +227,29 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		C73CE923246FCF45000D0B56 /* WatchApp */ = {
+			isa = PBXGroup;
+			children = (
+				C73CE947246FECC1000D0B56 /* LexendDeca-Regular.ttf */,
+				C73CE924246FCF45000D0B56 /* Interface.storyboard */,
+				C73CE927246FCF4C000D0B56 /* Assets.xcassets */,
+				C73CE929246FCF4C000D0B56 /* Info.plist */,
+			);
+			path = WatchApp;
+			sourceTree = "<group>";
+		};
+		C73CE932246FCF4C000D0B56 /* WatchApp Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C73CE933246FCF4C000D0B56 /* InterfaceController.swift */,
+				C73CE935246FCF4C000D0B56 /* ExtensionDelegate.swift */,
+				C73CE937246FCF4F000D0B56 /* Assets.xcassets */,
+				C73CE939246FCF4F000D0B56 /* Info.plist */,
+				C73CE945246FDA26000D0B56 /* TTTBrain.swift */,
+			);
+			path = "WatchApp Extension";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,10 +260,12 @@
 				C712362E23CF6A24009444FC /* Sources */,
 				C712362F23CF6A24009444FC /* Frameworks */,
 				C712363023CF6A24009444FC /* Resources */,
+				C73CE93D246FCF4F000D0B56 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C73CE93B246FCF4F000D0B56 /* PBXTargetDependency */,
 			);
 			name = TicTackyToe;
 			productName = TicTackyToe;
@@ -210,13 +308,47 @@
 			productReference = C712365323CF6A28009444FC /* TicTackyToeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		C73CE921246FCF45000D0B56 /* WatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C73CE944246FCF4F000D0B56 /* Build configuration list for PBXNativeTarget "WatchApp" */;
+			buildPhases = (
+				C73CE920246FCF45000D0B56 /* Resources */,
+				C73CE940246FCF4F000D0B56 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C73CE931246FCF4C000D0B56 /* PBXTargetDependency */,
+			);
+			name = WatchApp;
+			productName = WatchApp;
+			productReference = C73CE922246FCF45000D0B56 /* WatchApp.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C73CE92D246FCF4C000D0B56 /* WatchApp Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C73CE943246FCF4F000D0B56 /* Build configuration list for PBXNativeTarget "WatchApp Extension" */;
+			buildPhases = (
+				C73CE92A246FCF4C000D0B56 /* Sources */,
+				C73CE92B246FCF4C000D0B56 /* Frameworks */,
+				C73CE92C246FCF4C000D0B56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchApp Extension";
+			productName = "WatchApp Extension";
+			productReference = C73CE92E246FCF4C000D0B56 /* WatchApp.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		C712362A23CF6A24009444FC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1120;
+				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "AJ Radik";
 				TargetAttributes = {
@@ -230,6 +362,12 @@
 					C712365223CF6A28009444FC = {
 						CreatedOnToolsVersion = 11.2;
 						TestTargetID = C712363123CF6A24009444FC;
+					};
+					C73CE921246FCF45000D0B56 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					C73CE92D246FCF4C000D0B56 = {
+						CreatedOnToolsVersion = 11.4.1;
 					};
 				};
 			};
@@ -249,6 +387,8 @@
 				C712363123CF6A24009444FC /* TicTackyToe */,
 				C712364723CF6A28009444FC /* TicTackyToeTests */,
 				C712365223CF6A28009444FC /* TicTackyToeUITests */,
+				C73CE921246FCF45000D0B56 /* WatchApp */,
+				C73CE92D246FCF4C000D0B56 /* WatchApp Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -278,6 +418,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73CE920246FCF45000D0B56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73CE928246FCF4C000D0B56 /* Assets.xcassets in Resources */,
+				C73CE948246FECC1000D0B56 /* LexendDeca-Regular.ttf in Resources */,
+				C73CE926246FCF45000D0B56 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73CE92C246FCF4C000D0B56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73CE949246FECC1000D0B56 /* LexendDeca-Regular.ttf in Resources */,
+				C73CE938246FCF4F000D0B56 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +472,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C73CE92A246FCF4C000D0B56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73CE936246FCF4D000D0B56 /* ExtensionDelegate.swift in Sources */,
+				C73CE946246FDA26000D0B56 /* TTTBrain.swift in Sources */,
+				C73CE934246FCF4C000D0B56 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -325,6 +494,16 @@
 			isa = PBXTargetDependency;
 			target = C712363123CF6A24009444FC /* TicTackyToe */;
 			targetProxy = C712365423CF6A28009444FC /* PBXContainerItemProxy */;
+		};
+		C73CE931246FCF4C000D0B56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C73CE92D246FCF4C000D0B56 /* WatchApp Extension */;
+			targetProxy = C73CE930246FCF4C000D0B56 /* PBXContainerItemProxy */;
+		};
+		C73CE93B246FCF4F000D0B56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C73CE921246FCF45000D0B56 /* WatchApp */;
+			targetProxy = C73CE93A246FCF4F000D0B56 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -343,6 +522,14 @@
 				C712364123CF6A28009444FC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C73CE924246FCF45000D0B56 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C73CE925246FCF45000D0B56 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -466,6 +653,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TicTackyToe/TicTackyToe.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 32F8FK43RT;
 				INFOPLIST_FILE = TicTackyToe/Info.plist;
@@ -475,6 +663,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.aradik.TicTackyToe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -484,6 +673,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TicTackyToe/TicTackyToe.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 32F8FK43RT;
 				INFOPLIST_FILE = TicTackyToe/Info.plist;
@@ -493,6 +683,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.aradik.TicTackyToe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -582,6 +773,90 @@
 			};
 			name = Release;
 		};
+		C73CE93E246FCF4F000D0B56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32F8FK43RT;
+				IBSC_MODULE = WatchApp_Extension;
+				INFOPLIST_FILE = WatchApp/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aradik.TicTackyToe.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		C73CE93F246FCF4F000D0B56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32F8FK43RT;
+				IBSC_MODULE = WatchApp_Extension;
+				INFOPLIST_FILE = WatchApp/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aradik.TicTackyToe.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		C73CE941246FCF4F000D0B56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32F8FK43RT;
+				INFOPLIST_FILE = "WatchApp Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aradik.TicTackyToe.watchkitapp.watchkitextension;
+				PRODUCT_NAME = WatchApp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		C73CE942246FCF4F000D0B56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32F8FK43RT;
+				INFOPLIST_FILE = "WatchApp Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aradik.TicTackyToe.watchkitapp.watchkitextension;
+				PRODUCT_NAME = WatchApp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -617,6 +892,24 @@
 			buildConfigurations = (
 				C712366323CF6A28009444FC /* Debug */,
 				C712366423CF6A28009444FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C73CE943246FCF4F000D0B56 /* Build configuration list for PBXNativeTarget "WatchApp Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C73CE941246FCF4F000D0B56 /* Debug */,
+				C73CE942246FCF4F000D0B56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C73CE944246FCF4F000D0B56 /* Build configuration list for PBXNativeTarget "WatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C73CE93E246FCF4F000D0B56 /* Debug */,
+				C73CE93F246FCF4F000D0B56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
