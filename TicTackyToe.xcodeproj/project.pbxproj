@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28B9F9282A96641B00709006 /* Mixpanel in Frameworks */ = {isa = PBXBuildFile; productRef = 28B9F9272A96641B00709006 /* Mixpanel */; };
 		C712363623CF6A24009444FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C712363523CF6A24009444FC /* AppDelegate.swift */; };
 		C712363823CF6A24009444FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C712363723CF6A24009444FC /* SceneDelegate.swift */; };
 		C712363A23CF6A24009444FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C712363923CF6A24009444FC /* ViewController.swift */; };
@@ -129,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28B9F9282A96641B00709006 /* Mixpanel in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +270,9 @@
 				C73CE93B246FCF4F000D0B56 /* PBXTargetDependency */,
 			);
 			name = TicTackyToe;
+			packageProductDependencies = (
+				28B9F9272A96641B00709006 /* Mixpanel */,
+			);
 			productName = TicTackyToe;
 			productReference = C712363223CF6A24009444FC /* TicTackyToe.app */;
 			productType = "com.apple.product-type.application";
@@ -380,6 +385,9 @@
 				Base,
 			);
 			mainGroup = C712362923CF6A24009444FC;
+			packageReferences = (
+				28B9F9262A96641B00709006 /* XCRemoteSwiftPackageReference "mixpanel-swift" */,
+			);
 			productRefGroup = C712363323CF6A24009444FC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -656,14 +664,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = TicTackyToe/TicTackyToe.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = 32F8FK43RT;
 				INFOPLIST_FILE = TicTackyToe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aradik.TicTackyToe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
@@ -678,14 +686,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = TicTackyToe/TicTackyToe.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = 32F8FK43RT;
 				INFOPLIST_FILE = TicTackyToe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aradik.TicTackyToe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
@@ -926,6 +934,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		28B9F9262A96641B00709006 /* XCRemoteSwiftPackageReference "mixpanel-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mixpanel/mixpanel-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		28B9F9272A96641B00709006 /* Mixpanel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 28B9F9262A96641B00709006 /* XCRemoteSwiftPackageReference "mixpanel-swift" */;
+			productName = Mixpanel;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C712362A23CF6A24009444FC /* Project object */;
 }

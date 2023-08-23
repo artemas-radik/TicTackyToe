@@ -311,34 +311,34 @@
     </scenes>
     <designables>
         <designable name="7L6-U4-F4d">
-            <size key="intrinsicContentSize" width="30" height="100"/>
+            <size key="intrinsicContentSize" width="30" height="106"/>
         </designable>
         <designable name="Hg5-Ek-8aI">
-            <size key="intrinsicContentSize" width="30" height="100"/>
+            <size key="intrinsicContentSize" width="30" height="106"/>
         </designable>
         <designable name="IUg-7J-Kmh">
-            <size key="intrinsicContentSize" width="30" height="100"/>
+            <size key="intrinsicContentSize" width="30" height="106"/>
         </designable>
         <designable name="OE5-4N-ONn">
-            <size key="intrinsicContentSize" width="30" height="100"/>
+            <size key="intrinsicContentSize" width="30" height="106"/>
         </designable>
         <designable name="QCV-od-7NW">
-            <size key="intrinsicContentSize" width="30" height="100"/>
+            <size key="intrinsicContentSize" width="30" height="106"/>
         </designable>
         <designable name="aqF-lC-h5o">
-            <size key="intrinsicContentSize" width="30" height="100"/>
+            <size key="intrinsicContentSize" width="30" height="106"/>
         </designable>
         <designable name="bXy-HV-Pji">
-            <size key="intrinsicContentSize" width="30" height="100"/>
+            <size key="intrinsicContentSize" width="30" height="106"/>
         </designable>
         <designable name="jjV-lb-5oM">
-            <size key="intrinsicContentSize" width="30" height="100"/>
+            <size key="intrinsicContentSize" width="30" height="106"/>
         </designable>
         <designable name="jzR-eP-bu5">
-            <size key="intrinsicContentSize" width="30" height="100"/>
+            <size key="intrinsicContentSize" width="30" height="106"/>
         </designable>
         <designable name="wfY-VS-FiI">
-            <size key="intrinsicContentSize" width="129" height="71"/>
+            <size key="intrinsicContentSize" width="136" height="75"/>
         </designable>
     </designables>
     <resources>

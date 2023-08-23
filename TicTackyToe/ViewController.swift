@@ -9,6 +9,7 @@
 //test
 
 import UIKit
+import Mixpanel
 
 class ViewController: UIViewController {
     
@@ -26,8 +27,14 @@ class ViewController: UIViewController {
     }
 
     @IBAction func boardButtonWasPressed(_ sender: DesignableButton) {
+        
         let row = sender.tag / 3
         let col = sender.tag % 3
+        
+        Mixpanel.mainInstance().track(event: "Board Button Pressed", properties: [
+            "Row": row,
+            "Column": col,
+        ])
         
         if gameBoardIsLocked {return}
         if !brain.checkForLegalMoveAtRowAndCol(row: row, col: col) {return}
@@ -37,6 +44,10 @@ class ViewController: UIViewController {
         
         if brain.checkForWinner() {
             topLabel.text = "\(brain.getCurrentPlayer()) Won!"
+            Mixpanel.mainInstance().track(event: "Game Completed", properties: [
+                "Type": "Win",
+                "Ender": brain.getCurrentPlayer(),
+            ])
             gameBoardIsLocked = true
             return
         }
@@ -44,6 +55,10 @@ class ViewController: UIViewController {
         if brain.checkForDraw() {
             topLabel.text = "Draw!"
             topLabel.textColor = UIColor.label
+            Mixpanel.mainInstance().track(event: "Game Completed", properties: [
+                "Type": "Draw",
+                "Ender": brain.getCurrentPlayer(),
+            ])
             gameBoardIsLocked = true
             return
         }
@@ -53,6 +68,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func resetButton(_ sender: Any?) {
+        
+        Mixpanel.mainInstance().track(event: "Game Reset")
+        
         brain.resetBrain()
         gameBoardIsLocked = false
         
