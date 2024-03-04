@@ -112,7 +112,7 @@ struct TicTacToeGrid : View {
             navigationTitle = "Draw!"
             Mixpanel.mainInstance().track(event: "Game Completed", properties: [
                 "Type": "Draw",
-                "Ender": game.winner!.description,
+                "Ender": "",
             ])
         }
     }
