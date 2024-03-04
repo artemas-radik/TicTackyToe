@@ -1,8 +1,13 @@
-# TicTackyToe
-A tic tac toe app for iOS written in swift.
+# Screenshots
 
+### macOS 
+<img width=500 src="./Previews/macOS Light.png">
+<img width=500 src="./Previews/macOS Dark.png">
 
+### iOS
+<img width=300 src="./Previews/iOS Light.png" align=left>
+<img width=300 src="./Previews/iOS Dark.png" align=left>
+<img width=300 src="./Previews/Options Menu.png">
 
-Light Mode             |  Dark Mode
-:-------------------------:|:-------------------------:
-![](https://github.com/magnesiumm/TicTackyToe/blob/master/Images/SC1.png)  |  ![](https://github.com/magnesiumm/TicTackyToe/blob/master/Images/SC2.png)
+# Video Preview
+https://user-images.githubusercontent.com/88583085/203419768-6726d02c-e707-48a0-a48c-31bd5d1a9bea.mp4
