@@ -1,4 +1,5 @@
 import SwiftUI
+import Mixpanel
 
 struct TicTacToeGrid : View {
     /// A Boolean value equal to `true`
@@ -91,12 +92,28 @@ struct TicTacToeGrid : View {
         switch game.winner {
         case let winner? where isPVP:
             navigationTitle = "Player \(winner) won!"
+            Mixpanel.mainInstance().track(event: "Game Completed", properties: [
+                "Type": "Win",
+                "Ender": winner.description,
+            ])
         case .x:
             navigationTitle = "You win!"
+            Mixpanel.mainInstance().track(event: "Game Completed", properties: [
+                "Type": "Win",
+                "Ender": game.winner!.description,
+            ])
         case .o:
             navigationTitle = "You lose!"
+            Mixpanel.mainInstance().track(event: "Game Completed", properties: [
+                "Type": "Loss",
+                "Ender": game.winner!.description,
+            ])
         case nil:
             navigationTitle = "Draw!"
+            Mixpanel.mainInstance().track(event: "Game Completed", properties: [
+                "Type": "Draw",
+                "Ender": game.winner!.description,
+            ])
         }
     }
     
@@ -104,6 +121,10 @@ struct TicTacToeGrid : View {
     /// at the given index.
     private func onClick(at index: Int) {
         Task {
+            Mixpanel.mainInstance().track(event: "Board Button Pressed", properties: [
+                "Row": index / 3,
+                "Column": index % 3,
+            ])
             // Disable the grid until the turn is done.
             isDisabled = true
             await play(at: index)

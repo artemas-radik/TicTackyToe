@@ -1,5 +1,6 @@
 import SwiftUI
 import StoreKit
+import Mixpanel
 
 /// A button for rating the app on the app store.
 struct RateButton : View {
@@ -23,6 +24,7 @@ struct RestartButton : View {
     
     var body: some View {
         Button {
+            Mixpanel.mainInstance().track(event: "Game Reset")
             resetPublisher.send()
         } label: {
             Label("Restart", systemImage: "arrow.counterclockwise")
