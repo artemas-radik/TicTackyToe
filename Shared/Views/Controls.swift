@@ -1,4 +1,21 @@
 import SwiftUI
+import StoreKit
+
+/// A button for rating the app on the app store.
+struct RateButton : View {
+    @Environment(\.openURL) var openURL
+    
+    var body: some View {
+        Button {
+            guard let writeReviewURL = URL(string: "https://apps.apple.com/app/id1507852505?action=write-review") else {
+                fatalError("Expected a valid URL")
+            }
+            openURL(writeReviewURL)
+        } label: {
+            Label("Rate", systemImage: "star")
+        }
+    }
+}
 
 /// A button for resetting the grid.
 struct RestartButton : View {

@@ -33,16 +33,6 @@
 		9E94BFD1292D68400034DA79 /* iOS Light.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E94BFCE292D683F0034DA79 /* iOS Light.png */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		280A2D0F2B95BAB200205DC1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9EB191FD282B8FDA00319A79 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 280A2CFF2B95BAB100205DC1;
-			remoteInfo = TicTackyToeWidgetExtension;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		280A2D122B95BAB200205DC1 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -229,7 +219,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				280A2D102B95BAB200205DC1 /* PBXTargetDependency */,
 			);
 			name = TicTackyToe;
 			packageProductDependencies = (
@@ -332,14 +321,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		280A2D102B95BAB200205DC1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 280A2CFF2B95BAB100205DC1 /* TicTackyToeWidgetExtension */;
-			targetProxy = 280A2D0F2B95BAB200205DC1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		280A2D132B95BAB200205DC1 /* Debug */ = {
