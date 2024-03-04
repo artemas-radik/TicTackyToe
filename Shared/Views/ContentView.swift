@@ -44,9 +44,16 @@ struct ContentView : View {
             ToolbarItem(id: "appearance") {
                 AppearanceMenu()
             }
+            #if os(iOS)
+            ToolbarItem(id: "rate", placement: .cancellationAction) {
+                RateButton()
+            }
+            #endif
+            #if os(macOS)
             ToolbarItem(id: "rate", placement: .primaryAction) {
                 RateButton()
             }
+            #endif
         }
         .preferredColorScheme(appearance.preferredColorScheme)
         #if os(iOS)
