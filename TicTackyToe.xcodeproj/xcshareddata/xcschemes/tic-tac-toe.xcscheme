@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9E5236BA292C524C00DA2B64"
-               BuildableName = "tic-tac-toe.app"
-               BlueprintName = "tic-tac-toe"
+               BuildableName = "TicTackyToe.app"
+               BlueprintName = "TicTackyToe"
                ReferencedContainer = "container:TicTackyToe.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -44,8 +44,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9E5236BA292C524C00DA2B64"
-            BuildableName = "tic-tac-toe.app"
-            BlueprintName = "tic-tac-toe"
+            BuildableName = "TicTackyToe.app"
+            BlueprintName = "TicTackyToe"
             ReferencedContainer = "container:TicTackyToe.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -61,8 +61,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9E5236BA292C524C00DA2B64"
-            BuildableName = "tic-tac-toe.app"
-            BlueprintName = "tic-tac-toe"
+            BuildableName = "TicTackyToe.app"
+            BlueprintName = "TicTackyToe"
             ReferencedContainer = "container:TicTackyToe.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

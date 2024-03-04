@@ -6,7 +6,7 @@ struct PlayerView : Shape {
     static let animationDurationNano: UInt64 = 500_000_000
     
     /// The animation used to draw players.
-    static let animation = Animation.easeOut(duration: 0.5)
+    static let animation = Animation.easeOut(duration: 0.20)
     
     /// The player drawn by this view, if any.
     let player: TicTacToe.Player?

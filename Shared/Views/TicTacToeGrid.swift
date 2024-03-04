@@ -72,7 +72,7 @@ struct TicTacToeGrid : View {
     /// returning after it's done.
     private func animateGridLines() async {
         // Slightly delay the animation to account for app-start animation.
-        withAnimation(.easeOut(duration: 0.75)) {
+        withAnimation(.easeOut(duration: 0.50)) {
             animationCompletion = 1
         }
         // Enable the grid after the animation finishes.
