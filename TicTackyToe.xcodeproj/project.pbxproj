@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		280A2CDB2B95B4A100205DC1 /* Mixpanel in Frameworks */ = {isa = PBXBuildFile; productRef = 280A2CDA2B95B4A100205DC1 /* Mixpanel */; };
 		9E10ED41292C597500565A1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E806883285238F300E34E27 /* Assets.xcassets */; };
 		9E5236CB292C529500DA2B64 /* Collection + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED42CE628F8E4E6002BB0D4 /* Collection + Extensions.swift */; };
 		9E5236CC292C529500DA2B64 /* TicTacToe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED42CE328F8E40F002BB0D4 /* TicTacToe.swift */; };
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				280A2CDB2B95B4A100205DC1 /* Mixpanel in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +139,9 @@
 			dependencies = (
 			);
 			name = TicTackyToe;
+			packageProductDependencies = (
+				280A2CDA2B95B4A100205DC1 /* Mixpanel */,
+			);
 			productName = "tic-tac-toe";
 			productReference = 9E5236BB292C524C00DA2B64 /* TicTackyToe.app */;
 			productType = "com.apple.product-type.application";
@@ -165,6 +170,9 @@
 				Base,
 			);
 			mainGroup = 9EB191FC282B8FDA00319A79;
+			packageReferences = (
+				280A2CD92B95B4A100205DC1 /* XCRemoteSwiftPackageReference "mixpanel-swift" */,
+			);
 			productRefGroup = 9EB1920A282B8FDC00319A79 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -428,6 +436,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		280A2CD92B95B4A100205DC1 /* XCRemoteSwiftPackageReference "mixpanel-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mixpanel/mixpanel-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		280A2CDA2B95B4A100205DC1 /* Mixpanel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 280A2CD92B95B4A100205DC1 /* XCRemoteSwiftPackageReference "mixpanel-swift" */;
+			productName = Mixpanel;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9EB191FD282B8FDA00319A79 /* Project object */;
 }
