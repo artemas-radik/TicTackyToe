@@ -24,6 +24,16 @@ struct GridView: View {
             }
         }
     }
+    
+    func resolveMessage() -> String{
+        if game.winner == nil {
+            return "It was a draw."
+        } else if game.winner == .x {
+            return "Red wins."
+        } else {
+            return "Blue wins."
+        }
+    }
 
     var body: some View {
         VStack(spacing: 10) { // Vertical stack to hold our rows
@@ -34,10 +44,11 @@ struct GridView: View {
                             .aspectRatio(1.0, contentMode: .fit) // Ensure the rectangle remains square
                             .foregroundColor(resolveColor(row: row, column: column)) // Set the rectangle color
                             .onTapGesture {
-                                game.play(at: game.index(row: row, column: column))
+                                if game.cells[game.index(row: row, column: column)].isEmpty {
+                                    game.play(at: game.index(row: row, column: column))
+                                }
                                 if(!game.isOngoing) {
                                     showAlert = true
-                                    game = TicTacToe(startingPlayer: .x)
                                 }
                             }
                             .clipShape(RoundedRectangle(cornerSize: CGSize(width: 5, height: 5)))
@@ -47,10 +58,12 @@ struct GridView: View {
         }
         .alert(isPresented: $showAlert) {
             Alert(
-                title: Text("Rectangle Tapped"),
+                title: Text("Game Over"),
                 // Optional: Use the tappedRectangle state to show which rectangle was tapped
-                message: Text("rect was tapped."),
-                dismissButton: .default(Text("OK"))
+                message: Text(resolveMessage()),
+                dismissButton: .default(Text("OK"), action: {
+                    game = TicTacToe(startingPlayer: .x)
+                })
             )
         }
     }
