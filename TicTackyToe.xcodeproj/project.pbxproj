@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2807025E2B96A3D600959804 /* watchkitappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2807025D2B96A3D600959804 /* watchkitappApp.swift */; };
-		280702602B96A3D600959804 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2807025F2B96A3D600959804 /* ContentView.swift */; };
-		280702622B96A3D700959804 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 280702612B96A3D700959804 /* Assets.xcassets */; };
-		280702652B96A3D700959804 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 280702642B96A3D700959804 /* Preview Assets.xcassets */; };
-		280702682B96A3D700959804 /* TicTackyToe.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2807025B2B96A3D600959804 /* TicTackyToe.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		280A2CDB2B95B4A100205DC1 /* Mixpanel in Frameworks */ = {isa = PBXBuildFile; productRef = 280A2CDA2B95B4A100205DC1 /* Mixpanel */; };
 		280A2CDF2B95B62400205DC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280A2CDE2B95B62400205DC1 /* AppDelegate.swift */; };
 		9E10ED41292C597500565A1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E806883285238F300E34E27 /* Assets.xcassets */; };
@@ -32,16 +27,6 @@
 		9E94BFD1292D68400034DA79 /* iOS Light.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E94BFCE292D683F0034DA79 /* iOS Light.png */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		280702662B96A3D700959804 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9EB191FD282B8FDA00319A79 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2807025A2B96A3D600959804;
-			remoteInfo = "watchkitapp Watch App";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		280702692B96A3D700959804 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -49,7 +34,6 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				280702682B96A3D700959804 /* TicTackyToe.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,11 +51,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2807025B2B96A3D600959804 /* TicTackyToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTackyToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2807025D2B96A3D600959804 /* watchkitappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchkitappApp.swift; sourceTree = "<group>"; };
-		2807025F2B96A3D600959804 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		280702612B96A3D700959804 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		280702642B96A3D700959804 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		280A2CDE2B95B62400205DC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		280A2D022B95BAB100205DC1 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = /System/Library/Frameworks/WidgetKit.framework; sourceTree = "<absolute>"; };
 		280A2D042B95BAB100205DC1 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = /System/Library/Frameworks/SwiftUI.framework; sourceTree = "<absolute>"; };
@@ -96,13 +75,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		280702582B96A3D600959804 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9E5236B8292C524C00DA2B64 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -114,25 +86,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2807025C2B96A3D600959804 /* watchkitapp Watch App */ = {
-			isa = PBXGroup;
-			children = (
-				2807025D2B96A3D600959804 /* watchkitappApp.swift */,
-				2807025F2B96A3D600959804 /* ContentView.swift */,
-				280702612B96A3D700959804 /* Assets.xcassets */,
-				280702632B96A3D700959804 /* Preview Content */,
-			);
-			path = "watchkitapp Watch App";
-			sourceTree = "<group>";
-		};
-		280702632B96A3D700959804 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				280702642B96A3D700959804 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
 		280A2D012B95BAB100205DC1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,7 +126,6 @@
 				9E94BFC7292D65490034DA79 /* Previews */,
 				9EB19201282B8FDA00319A79 /* Shared */,
 				9EB19210282B8FDC00319A79 /* macOS */,
-				2807025C2B96A3D600959804 /* watchkitapp Watch App */,
 				280A2D012B95BAB100205DC1 /* Frameworks */,
 				9EB1920A282B8FDC00319A79 /* Products */,
 			);
@@ -197,7 +149,6 @@
 			isa = PBXGroup;
 			children = (
 				9E5236BB292C524C00DA2B64 /* TicTackyToe.app */,
-				2807025B2B96A3D600959804 /* TicTackyToe.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -213,23 +164,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2807025A2B96A3D600959804 /* TicTackyToe Watch App */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2807026C2B96A3D700959804 /* Build configuration list for PBXNativeTarget "TicTackyToe Watch App" */;
-			buildPhases = (
-				280702572B96A3D600959804 /* Sources */,
-				280702582B96A3D600959804 /* Frameworks */,
-				280702592B96A3D600959804 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "TicTackyToe Watch App";
-			productName = "watchkitapp Watch App";
-			productReference = 2807025B2B96A3D600959804 /* TicTackyToe.app */;
-			productType = "com.apple.product-type.application";
-		};
 		9E5236BA292C524C00DA2B64 /* TicTackyToe */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E5236C7292C524E00DA2B64 /* Build configuration list for PBXNativeTarget "TicTackyToe" */;
@@ -243,7 +177,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				280702672B96A3D700959804 /* PBXTargetDependency */,
 			);
 			name = TicTackyToe;
 			packageProductDependencies = (
@@ -263,9 +196,6 @@
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					2807025A2B96A3D600959804 = {
-						CreatedOnToolsVersion = 15.2;
-					};
 					9E5236BA292C524C00DA2B64 = {
 						CreatedOnToolsVersion = 14.1;
 					};
@@ -288,21 +218,11 @@
 			projectRoot = "";
 			targets = (
 				9E5236BA292C524C00DA2B64 /* TicTackyToe */,
-				2807025A2B96A3D600959804 /* TicTackyToe Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		280702592B96A3D600959804 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				280702652B96A3D700959804 /* Preview Assets.xcassets in Resources */,
-				280702622B96A3D700959804 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9E5236B9292C524C00DA2B64 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -319,15 +239,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		280702572B96A3D600959804 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				280702602B96A3D600959804 /* ContentView.swift in Sources */,
-				2807025E2B96A3D600959804 /* watchkitappApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9E5236B7292C524C00DA2B64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -348,89 +259,10 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		280702672B96A3D700959804 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2807025A2B96A3D600959804 /* TicTackyToe Watch App */;
-			targetProxy = 280702662B96A3D700959804 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		2807026A2B96A3D700959804 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"watchkitapp Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = 32F8FK43RT;
-				ENABLE_PREVIEWS = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.aradik.TicTackyToe;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.aradik.TicTackyToe.watchkitapp;
-				PRODUCT_NAME = TicTackyToe;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 10.2;
-			};
-			name = Debug;
-		};
-		2807026B2B96A3D700959804 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"watchkitapp Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = 32F8FK43RT;
-				ENABLE_PREVIEWS = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.aradik.TicTackyToe;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.aradik.TicTackyToe.watchkitapp;
-				PRODUCT_NAME = TicTackyToe;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 10.2;
-			};
-			name = Release;
-		};
 		9E5236C8292C524E00DA2B64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -475,7 +307,6 @@
 		9E5236C9292C524E00DA2B64 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -637,15 +468,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2807026C2B96A3D700959804 /* Build configuration list for PBXNativeTarget "TicTackyToe Watch App" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2807026A2B96A3D700959804 /* Debug */,
-				2807026B2B96A3D700959804 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		9E5236C7292C524E00DA2B64 /* Build configuration list for PBXNativeTarget "TicTackyToe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
