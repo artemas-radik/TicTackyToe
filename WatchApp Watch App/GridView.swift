@@ -34,7 +34,7 @@ struct GridView: View {
                     Alert(
                         title: Text("Rectangle Tapped"),
                         // Optional: Use the tappedRectangle state to show which rectangle was tapped
-                        message: Text("\(tappedRectangle) was tapped."),
+                        message: Text("rect was tapped."),
                         dismissButton: .default(Text("OK"))
                     )
                 }

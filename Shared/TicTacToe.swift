@@ -1,6 +1,4 @@
 
-import Mixpanel
-
 struct TicTacToe {
     enum Player: String, CustomStringConvertible {
         case x, o
