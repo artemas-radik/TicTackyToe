@@ -13,7 +13,7 @@
 		28EA07CE2B96AEB1002DB0BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EA07CD2B96AEB1002DB0BA /* ContentView.swift */; };
 		28EA07D02B96AEB2002DB0BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28EA07CF2B96AEB2002DB0BA /* Assets.xcassets */; };
 		28EA07D32B96AEB2002DB0BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28EA07D22B96AEB2002DB0BA /* Preview Assets.xcassets */; };
-		28EA07D62B96AEB2002DB0BA /* WatchApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 28EA07C92B96AEB1002DB0BA /* WatchApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		28EA07D62B96AEB2002DB0BA /* TicTackyToe.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 28EA07C92B96AEB1002DB0BA /* TicTackyToe.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		28EA07DB2B96AFB6002DB0BA /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EA07DA2B96AFB6002DB0BA /* GridView.swift */; };
 		28EA07DC2B96B15B002DB0BA /* TicTacToe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED42CE328F8E40F002BB0D4 /* TicTacToe.swift */; };
 		28EA07DE2B96B3B6002DB0BA /* Collection + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED42CE628F8E4E6002BB0D4 /* Collection + Extensions.swift */; };
@@ -52,7 +52,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				28EA07D62B96AEB2002DB0BA /* WatchApp Watch App.app in Embed Watch Content */,
+				28EA07D62B96AEB2002DB0BA /* TicTackyToe.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -73,7 +73,7 @@
 		280A2CDE2B95B62400205DC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		280A2D022B95BAB100205DC1 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = /System/Library/Frameworks/WidgetKit.framework; sourceTree = "<absolute>"; };
 		280A2D042B95BAB100205DC1 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = /System/Library/Frameworks/SwiftUI.framework; sourceTree = "<absolute>"; };
-		28EA07C92B96AEB1002DB0BA /* WatchApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28EA07C92B96AEB1002DB0BA /* TicTackyToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTackyToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28EA07CB2B96AEB1002DB0BA /* WatchAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchAppApp.swift; sourceTree = "<group>"; };
 		28EA07CD2B96AEB1002DB0BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		28EA07CF2B96AEB2002DB0BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -202,7 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				9E5236BB292C524C00DA2B64 /* TicTackyToe.app */,
-				28EA07C92B96AEB1002DB0BA /* WatchApp Watch App.app */,
+				28EA07C92B96AEB1002DB0BA /* TicTackyToe.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -232,7 +232,7 @@
 			);
 			name = "WatchApp Watch App";
 			productName = "WatchApp Watch App";
-			productReference = 28EA07C92B96AEB1002DB0BA /* WatchApp Watch App.app */;
+			productReference = 28EA07C92B96AEB1002DB0BA /* TicTackyToe.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9E5236BA292C524C00DA2B64 /* TicTackyToe */ = {
@@ -380,7 +380,6 @@
 				ENABLE_PREVIEWS = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = WatchApp;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.aradik.TicTackyToe;
 				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
@@ -391,7 +390,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aradik.TicTackyToe.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TicTackyToe;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
@@ -417,7 +416,6 @@
 				ENABLE_PREVIEWS = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = WatchApp;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.aradik.TicTackyToe;
 				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
@@ -428,7 +426,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aradik.TicTackyToe.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TicTackyToe;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
